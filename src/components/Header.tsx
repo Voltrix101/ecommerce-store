@@ -190,8 +190,8 @@ export function Header({ onSearch, onCategorySelect, selectedCategory, onProduct
                         className="h-10 w-10 rounded-full ring-2 ring-indigo-100"
                       />
                       <div>
-                        <p className="font-medium">{authState.user?.name}</p>
-                        <p className="text-sm text-gray-500">{authState.user?.email}</p>
+                        <p className="font-medium text-gray-900">{authState.user?.name}</p>
+                        <p className="text-sm text-gray-600">{authState.user?.email}</p>
                       </div>
                     </div>
                   </div>
