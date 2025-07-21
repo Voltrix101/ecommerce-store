@@ -2,7 +2,7 @@ import React from 'react';
 import { useCart } from '../contexts/CartContext';
 import { Minus, Plus, Trash2, CreditCard } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '../components/ui/button';
+import { Button } from '../components/ui/Button';
 
 const CartPage: React.FC = () => {
   const { state, dispatch, totalItems, totalPrice } = useCart();
