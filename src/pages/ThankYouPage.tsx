@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Button } from '../components/ui/button';
+import { Button } from '../components/ui/Button';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 export const ThankYouPage: React.FC = () => {
